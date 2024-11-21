@@ -9,8 +9,8 @@ The focus of this project is on exploring and optimizing hyperparameters to maxi
 **Remember that understanding your data is always the first step**. This repository not only demonstrates how to optimize your XGBoost model but also guides you through the thought process and decision-making when working with your data.
 
 You can find... <br>
-The dataset [here](https://www.kaggle.com/datasets/blastchar/telco-customer-churn/code?datasetId=13996&sortBy=voteCount){:target="_blank"} <br>
-XGBoost's documentation [here](https://xgboost.readthedocs.io/en/stable/){:target="_blank"}
+The dataset <a href="https://www.kaggle.com/datasets/blastchar/telco-customer-churn/code?datasetId=13996&sortBy=voteCount" target="_blank">here</a> <br>
+XGBoost's documentation [here](https://xgboost.readthedocs.io/en/stable/)
 
 ---
 
