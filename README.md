@@ -10,7 +10,7 @@ The focus of this project is on exploring and optimizing hyperparameters to maxi
 
 You can find... <br>
 The dataset [here](https://www.kaggle.com/datasets/blastchar/telco-customer-churn/code?datasetId=13996&sortBy=voteCount)<br>
-XGBoost's documentation [here](https://xgboost.readthedocs.io/en/stable/){:target="_blank"}
+XGBoost's documentation [here](https://xgboost.readthedocs.io/en/stable/)
 
 ---
 
