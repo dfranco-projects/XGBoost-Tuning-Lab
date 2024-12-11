@@ -4,7 +4,7 @@ Welcome to the __XGBoost Tuning Lab__ repository!
 
 This project is dedicated to developing a reproducible framework for __Extreme Gradient Boosting (XGBoost)__, exploring and iteratively optimizing its hyperparameters while showcasing different techniques. XGBoost, developed by Tianqi Chen (Chen & Guestrin, 2016), is inspired by Friedman’s (2001) Gradient Boosting. It introduces improvements in speed through parallelization and reduces the tendency to overfit by incorporating regularization terms.
 
-The focus of this project is on exploring and optimizing hyperparameters to maximize model performance for a __churn prediction__ task using the __Tesco Dataset__.
+The focus of this project is on exploring and optimizing hyperparameters to maximize model performance for a __churn prediction__ task using the famous __Telco Dataset__.
 
 __Remember that understanding your data is always the first step__. This repository not only demonstrates how to optimize your XGBoost model but also guides you through the thought process and decision-making when working with your data.
 
