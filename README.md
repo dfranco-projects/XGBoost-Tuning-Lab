@@ -1,12 +1,12 @@
 # XGBoost-Tuning-Lab (WIP)
 
-Welcome to the **XGBoost Tuning Lab** repository!
+Welcome to the __XGBoost Tuning Lab__ repository!
 
-This project is dedicated to developing a reproducible framework for **Extreme Gradient Boosting (XGBoost)**, exploring and iteratively optimizing its hyperparameters while showcasing different techniques. XGBoost, developed by Tianqi Chen (Chen & Guestrin, 2016), is inspired by Friedman’s (2001) Gradient Boosting. It introduces improvements in speed through parallelization and reduces the tendency to overfit by incorporating regularization terms.
+This project is dedicated to developing a reproducible framework for __Extreme Gradient Boosting (XGBoost)__, exploring and iteratively optimizing its hyperparameters while showcasing different techniques. XGBoost, developed by Tianqi Chen (Chen & Guestrin, 2016), is inspired by Friedman’s (2001) Gradient Boosting. It introduces improvements in speed through parallelization and reduces the tendency to overfit by incorporating regularization terms.
 
-The focus of this project is on exploring and optimizing hyperparameters to maximize model performance for a **churn prediction** task using the **Tesco Dataset**.
+The focus of this project is on exploring and optimizing hyperparameters to maximize model performance for a __churn prediction__ task using the __Tesco Dataset__.
 
-**Remember that understanding your data is always the first step**. This repository not only demonstrates how to optimize your XGBoost model but also guides you through the thought process and decision-making when working with your data.
+__Remember that understanding your data is always the first step__. This repository not only demonstrates how to optimize your XGBoost model but also guides you through the thought process and decision-making when working with your data.
 
 You can find... <br>
 The dataset [here](https://www.kaggle.com/datasets/blastchar/telco-customer-churn/code?datasetId=13996&sortBy=voteCount)<br>
@@ -17,8 +17,8 @@ XGBoost's documentation [here](https://xgboost.readthedocs.io/en/stable/)
 ## Key Objectives  
 
 - Understand and explore the data.
-- Develop a reproducible pipeline for **XGBoost hyperparameter tuning**.
-- Explore different tuning methods such as **Grid Search**, **Random Search**, and **Bayesian Optimization**.
+- Develop a reproducible pipeline for __XGBoost hyperparameter tuning__.
+- Explore different tuning methods such as __Grid Search__, __Random Search__, and __Bayesian Optimization__.
 - Analyze the impact of hyperparameters on model performance and interpretability.
 - Apply the optimized model to churn prediction and compare it with the baseline model.
 
