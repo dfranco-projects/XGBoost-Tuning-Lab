@@ -1,7 +1,9 @@
 '''
 Data Ingestor
+=============
 
 This script provides functionalities to streamline data ingestion processes, including:
+
 1. Extracting files from zip archives and organizing them for easier access.
 2. Generating and saving metadata for each file to enable faster subsequent imports.
 
@@ -12,9 +14,17 @@ The metadata saved by this script typically includes file-specific details such 
 - Number of rows
 - Loading instructions
 
-These capabilities make the script an efficient tool for extracting and cataloging data, ensuring faster loading and processing in future workflows.
+**Key Features:**
+- Centralized path management for project directories.
+- Support for multiple file formats (`.csv`, `.xlsx`, `.parquet`, `.json`, `.txt`).
+- Modular design with classes for handling specific file types.
 
-ATTENTION: ENSURE THE INPUT FOLDER NAME IS NAMED 'data' AND EDIT THE CLASS PATH MANAGER ACCORDING TO FOLDER STRUCTURE.
+**Setup Instructions:**
+1. Ensure the input folder is named `data`.
+2. Edit the `PathManager` class paths to match your folder structure.
+
+**ATTENTION:**  
+Ensure the folder structure is correct to avoid errors.
 '''
 import os
 import json
@@ -415,7 +425,7 @@ if __name__ == '__main__':
     metadata_list = []
     for ingestor, file_path, file_extension in zip(data_ingestors, filtered_file_path, file_extensions):
         metadata = ingestor.ingest(file_path)
-        
+
         if file_extension != '.zip': 
             metadata_list.append(metadata)
         else:
